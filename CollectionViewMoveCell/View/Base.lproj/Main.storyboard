@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9iN-v4-BYI">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="MBS-JK-JQ1">
+            <objects>
+                <viewController storyboardIdentifier="HomeVC" id="9iN-v4-BYI" customClass="HomeVC" customModule="CollectionViewMoveCell" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Fh-p2-wiF">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="viewImg" translatesAutoresizingMaskIntoConstraints="NO" id="cC0-zP-meA">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kWK-wO-D7v"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="cC0-zP-meA" firstAttribute="top" secondItem="9Fh-p2-wiF" secondAttribute="top" id="AxA-UN-z3w"/>
+                            <constraint firstAttribute="trailing" secondItem="cC0-zP-meA" secondAttribute="trailing" id="BGH-Ga-roR"/>
+                            <constraint firstAttribute="bottom" secondItem="cC0-zP-meA" secondAttribute="bottom" id="Fu0-56-i0d"/>
+                            <constraint firstItem="cC0-zP-meA" firstAttribute="leading" secondItem="9Fh-p2-wiF" secondAttribute="leading" id="k1o-dF-6M5"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="tZS-GR-xlk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F5W-Jy-wWS" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1772" y="224"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="viewImg" width="800" height="450"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
