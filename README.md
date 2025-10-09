@@ -68,3 +68,9 @@ Run the project on simulator or device.
 
 This project is open-sourced under the MIT License.
 Feel free to modify and use in your own projects.
+## 📱 App Preview
+
+<p align="center">
+  <img src="Screenshots/AppDemo.png" width="300">
+</p>
+
