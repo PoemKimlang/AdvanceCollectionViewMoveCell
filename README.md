@@ -51,8 +51,6 @@ UILongPressGestureRecognizer
 
 Auto Layout (programmatic)
 
-Swift 5
-
 iOS 13.0+ Deployment Target
 
 🚀 Getting Started
@@ -61,12 +59,14 @@ Clone the repository:
 
 git clone https://github.com/PoemKimlang/AdvanceCollectionViewMoveCell.git
 
-Run the project on simulator or device.
-🧾 License
+🙋‍♂️ Contributing
+Feel free to contribute by creating pull requests or raising issues.
 
-This project is open-sourced under the MIT License.
-Feel free to modify and use in your own projects.
+🧑‍💻 Author
+Created by Poem Kimlang.
+
 ## 📱 App Preview
+Run the project on simulator or device.
 
 <p align="center">
   <img src="Screenshots/AppDemo.png" width="300">
