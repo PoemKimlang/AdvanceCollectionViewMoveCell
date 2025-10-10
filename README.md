@@ -61,8 +61,6 @@ Clone the repository:
 
 git clone https://github.com/PoemKimlang/AdvanceCollectionViewMoveCell.git
 
-Set deployment target to iOS 13.0
-
 Run the project on simulator or device.
 🧾 License
 
